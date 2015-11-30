@@ -8,7 +8,7 @@ The script has been written to be used easyly with **jenkins**.
 
 ## What does it do
 
-1. It first copies the executable (a jar file for the moment) into an installation directory (parametrable)
+1. It first copies the executable (a jar file for the moment) into an installation directory (customizable)
 2. Then a launcher is created according to a template (for a jar file a java command is used)
 3. Finally, a linux service wrapper is created (there is two possible ways of doing that: using a symbolic link for spring boot 1.3.0 java applications, or creating a classic daemon launcher)
 
